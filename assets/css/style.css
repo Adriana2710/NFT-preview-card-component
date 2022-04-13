@@ -9,7 +9,12 @@ body {
     font-family: 'Outfit', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;    
 }
 
 /* Main Styles */
@@ -17,7 +22,7 @@ body {
 .container {
     background-color: hsl(216, 50%, 16%);
     max-width: 340px;
-    margin: 100px auto 20px auto;
+    margin: 0 auto;
     padding: 23px;
     border-radius: 15px;
 }
@@ -66,7 +71,7 @@ body {
 
 .main-title {
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 600;
     display: inline-block;
     margin-top: 15px;
 }
@@ -115,7 +120,7 @@ main p, .clock, .description {
     color: hsl(178, 100%, 50%);
 }
 
-footer {
+.avatar {
     border-top: 0.2px solid hsl(215, 32%, 27%);
     height: 50px;
 }

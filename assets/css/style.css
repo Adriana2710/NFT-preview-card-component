@@ -86,7 +86,7 @@ body {
     transition: 0.3s color;
 }
 
-main p, .description{
+.container-text, .description{
     font-weight: 300;
 }
 
@@ -94,7 +94,7 @@ main p, .description{
     font-size: 16px;
 }
 
-main p, .clock, .description {
+.container-text, .clock, .description {
     color: hsl(215, 51%, 70%);
 }
 
